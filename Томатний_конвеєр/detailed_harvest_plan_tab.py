@@ -539,6 +539,7 @@ class DetailedHarvestPlanTab(QWidget):
       div_start_dates = self._get_division_start_dates()
       schedule, remaining = self._compute_schedule(fields, days, div_start_dates)
       self._render_table(fields, days, schedule, remaining)
+      self._fill_main_table_dates(fields, days, schedule)
 
     def _render_table(self, fields, days, schedule, remaining):
         n_days = len(days)
@@ -641,6 +642,59 @@ class DetailedHarvestPlanTab(QWidget):
 
         self.summary_label.setText("   |   ".join(summary_parts))
 
+    def _fill_main_table_dates(self, fields, days, schedule):
+      """
+      Заповнює в основній таблиці колонки:
+        7 — Початок збирання (перший день коли щось зібрано з поля)
+        8 — Закінчення збирання (останній день)
+        9 — Відхилення (Дозрівання прогноз - Початок збирання)
+      """
+      main_table = self.main_app.table
+      n_days = len(days)
+      n_fields = len(fields)
+
+      for f_idx, field in enumerate(fields):
+        row_idx = field["row_idx"]
+
+        # Знаходимо перший і останній день збору
+        first_day = None
+        last_day = None
+
+        for d_idx in range(n_days):
+          val = schedule[d_idx][f_idx]
+          if val >= 0.01:
+            if first_day is None:
+              first_day = days[d_idx]["date"]
+            last_day = days[d_idx]["date"]
+
+        # Початок збирання
+        start_str = first_day.strftime("%d.%m.%Y") if first_day else ""
+        main_table.setItem(row_idx, 7, QTableWidgetItem(start_str))
+
+        # Закінчення збирання
+        end_str = last_day.strftime("%d.%m.%Y") if last_day else ""
+        main_table.setItem(row_idx, 8, QTableWidgetItem(end_str))
+
+        # Відхилення = Дозрівання прогноз - Початок збирання
+        deviation_str = ""
+        if first_day:
+          ripening_item = main_table.item(row_idx, 6)
+          if ripening_item and ripening_item.text().strip():
+            ripening = None
+            for fmt in ("%Y-%m-%d", "%d.%m.%Y"):
+              try:
+                ripening = datetime.strptime(ripening_item.text().strip(), fmt).date()
+                break
+              except:
+                continue
+            if ripening:
+              delta = (first_day - ripening).days
+              sign = "+" if delta > 0 else ""
+              deviation_str = f"{sign}{delta} дн."
+
+        main_table.setItem(row_idx, 9, QTableWidgetItem(deviation_str))
+
+      self.main_app.save_data()
     # ------------------------------------------------------------------
     # Допоміжні
     # ------------------------------------------------------------------
