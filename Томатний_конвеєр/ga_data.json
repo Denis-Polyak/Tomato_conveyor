@@ -1,0 +1,2750 @@
+{
+    "harv_a_cap": 33.0,
+    "harv_b_cap": 22.0,
+    "hours": 16,
+    "max_load": 100,
+    "pop_size": 60,
+    "generations": 200,
+    "divisions": [
+        {
+            "name": "Шевченкове",
+            "gross": "124990.85",
+            "harv_a": "3",
+            "harv_b": "2",
+            "start_date": ""
+        },
+        {
+            "name": "Центральне",
+            "gross": "80171.4",
+            "harv_a": "1",
+            "harv_b": "2",
+            "start_date": ""
+        },
+        {
+            "name": "Лимани",
+            "gross": "76535.85",
+            "harv_a": "1",
+            "harv_b": "2",
+            "start_date": ""
+        },
+        {
+            "name": "Фермери",
+            "gross": "6200.0",
+            "harv_a": "0",
+            "harv_b": "1",
+            "start_date": ""
+        }
+    ],
+    "plan": [
+        "1674",
+        "4017",
+        "4687",
+        "4687",
+        "4687",
+        "4687",
+        "4687",
+        "4687",
+        "4687",
+        "4687",
+        "4687",
+        "4687",
+        "4687",
+        "4687",
+        "2343",
+        "2349",
+        "4776",
+        "4776",
+        "4776",
+        "4776",
+        "4776",
+        "4776",
+        "4776",
+        "4776",
+        "4776",
+        "4776",
+        "4776",
+        "4776",
+        "4776",
+        "2427",
+        "2349",
+        "4776",
+        "4776",
+        "4776",
+        "4776",
+        "4776",
+        "4776",
+        "4776",
+        "4776",
+        "4776",
+        "4776",
+        "4776",
+        "4776",
+        "4776",
+        "2427",
+        "2349",
+        "4776",
+        "4776",
+        "4776",
+        "4692",
+        "4436",
+        "4687",
+        "4687",
+        "4687",
+        "4687",
+        "4687",
+        "4687",
+        "4687",
+        "4687",
+        "2427",
+        "2349",
+        "4687",
+        "4687",
+        "4687",
+        "4687",
+        "3044"
+    ],
+    "result": [
+        {
+            "day": 1,
+            "demand": 1674.0,
+            "deviation": 0.0,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 36.1,
+                    "remaining": 76090.8,
+                    "supply": 445.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 10.2,
+                    "remaining": 6163.9,
+                    "supply": 36.1
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 37.8,
+                    "remaining": 79705.2,
+                    "supply": 466.2
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 31.8,
+                    "remaining": 124264.1,
+                    "supply": 726.8
+                }
+            },
+            "total_supply": 1674.0
+        },
+        {
+            "day": 2,
+            "demand": 4017.0,
+            "deviation": 0.0,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 86.7,
+                    "remaining": 75022.9,
+                    "supply": 1067.9
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 24.6,
+                    "remaining": 6077.4,
+                    "supply": 86.5
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 90.8,
+                    "remaining": 78586.6,
+                    "supply": 1118.6
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 76.2,
+                    "remaining": 122520.1,
+                    "supply": 1744.0
+                }
+            },
+            "total_supply": 4017.0
+        },
+        {
+            "day": 3,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 73790.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 5976.5,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 77354.6,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 120485.2,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 4,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 72558.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 5875.6,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 76122.6,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 118450.4,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 5,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 71326.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 5774.6,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 74890.6,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 116415.5,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 6,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 70094.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 5673.7,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 73658.6,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 114380.7,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 7,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 68862.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 5572.8,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 72426.6,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 112345.8,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 8,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 67630.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 5471.8,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 71194.6,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 110310.9,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 9,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 66398.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 5370.9,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 69962.6,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 108276.1,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 10,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 65166.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 5270.0,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 68730.6,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 106241.2,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 11,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 63934.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 5169.0,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 67498.6,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 104206.4,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 12,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 62702.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 5068.1,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 66266.6,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 102171.5,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 13,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 61470.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 4967.1,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 65034.6,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 100136.7,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 14,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 60238.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 4866.2,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 63802.6,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 98101.8,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 15,
+            "demand": 2343.0,
+            "deviation": 0.0,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 50.6,
+                    "remaining": 59616.1,
+                    "supply": 622.9
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 14.3,
+                    "remaining": 4815.7,
+                    "supply": 50.5
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 53.0,
+                    "remaining": 63150.2,
+                    "supply": 652.5
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 44.5,
+                    "remaining": 97084.6,
+                    "supply": 1017.2
+                }
+            },
+            "total_supply": 2343.0
+        },
+        {
+            "day": 16,
+            "demand": 2349.0,
+            "deviation": 0.0,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 50.7,
+                    "remaining": 58991.6,
+                    "supply": 624.5
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 14.4,
+                    "remaining": 4765.2,
+                    "supply": 50.6
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 53.1,
+                    "remaining": 62496.0,
+                    "supply": 654.1
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 44.6,
+                    "remaining": 96064.8,
+                    "supply": 1019.8
+                }
+            },
+            "total_supply": 2349.0
+        },
+        {
+            "day": 17,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 57759.6,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 4662.3,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 61264.0,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 93991.3,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 18,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 56527.6,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 4559.5,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 60032.0,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 91917.8,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 19,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 55295.6,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 4456.6,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 58800.0,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 89844.3,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 20,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 54063.6,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 4353.7,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 57568.0,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 87770.8,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 21,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 52831.6,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 4250.9,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 56336.0,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 85697.3,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 22,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 51599.6,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 4148.0,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 55104.0,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 83623.8,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 23,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 50367.6,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 4045.2,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 53872.0,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 81550.3,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 24,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 49135.6,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 3942.3,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 52640.0,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 79476.8,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 25,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 47903.6,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 3839.5,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 51408.0,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 77403.3,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 26,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 46671.6,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 3736.6,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 50176.0,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 75329.8,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 27,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 45439.6,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 3633.8,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 48944.0,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 73256.3,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 28,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 44207.6,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 3530.9,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 47712.0,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 71182.8,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 29,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 42975.6,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 3428.1,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 46480.0,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 69109.3,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 30,
+            "demand": 2427.0,
+            "deviation": 0.0,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 52.4,
+                    "remaining": 42330.4,
+                    "supply": 645.2
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 14.8,
+                    "remaining": 3375.8,
+                    "supply": 52.3
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 54.9,
+                    "remaining": 45804.2,
+                    "supply": 675.9
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 46.1,
+                    "remaining": 68055.6,
+                    "supply": 1053.7
+                }
+            },
+            "total_supply": 2427.0
+        },
+        {
+            "day": 31,
+            "demand": 2349.0,
+            "deviation": 0.0,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 50.7,
+                    "remaining": 41705.9,
+                    "supply": 624.5
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 14.4,
+                    "remaining": 3325.2,
+                    "supply": 50.6
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 53.1,
+                    "remaining": 45150.1,
+                    "supply": 654.1
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 44.6,
+                    "remaining": 67035.8,
+                    "supply": 1019.8
+                }
+            },
+            "total_supply": 2349.0
+        },
+        {
+            "day": 32,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 40473.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 3222.4,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 43918.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 64962.3,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 33,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 39241.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 3119.5,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 42686.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 62888.8,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 34,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 38009.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 3016.7,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 41454.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 60815.3,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 35,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 36777.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 2913.8,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 40222.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 58741.8,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 36,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 35545.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 2811.0,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 38990.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 56668.3,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 37,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 34313.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 2708.1,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 37758.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 54594.8,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 38,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 33081.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 2605.2,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 36526.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 52521.3,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 39,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 31849.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 2502.4,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 35294.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 50447.8,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 40,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 30617.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 2399.5,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 34062.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 48374.3,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 41,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 29385.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 2296.7,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 32830.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 46300.8,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 42,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 28153.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 2193.8,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 31598.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 44227.3,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 43,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 26921.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 2091.0,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 30366.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 42153.8,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 44,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 25689.9,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 1988.1,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 29134.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 40080.3,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 45,
+            "demand": 2427.0,
+            "deviation": 0.0,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 52.4,
+                    "remaining": 25044.7,
+                    "supply": 645.2
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 14.8,
+                    "remaining": 1935.9,
+                    "supply": 52.3
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 54.9,
+                    "remaining": 28458.2,
+                    "supply": 675.9
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 46.1,
+                    "remaining": 39026.6,
+                    "supply": 1053.7
+                }
+            },
+            "total_supply": 2427.0
+        },
+        {
+            "day": 46,
+            "demand": 2349.0,
+            "deviation": 0.0,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 50.7,
+                    "remaining": 24420.3,
+                    "supply": 624.5
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 14.4,
+                    "remaining": 1885.3,
+                    "supply": 50.6
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 53.1,
+                    "remaining": 27804.1,
+                    "supply": 654.1
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 44.6,
+                    "remaining": 38006.8,
+                    "supply": 1019.8
+                }
+            },
+            "total_supply": 2349.0
+        },
+        {
+            "day": 47,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 23188.3,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 1782.4,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 26572.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 35933.3,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 48,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 21956.3,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 1679.6,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 25340.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 33859.8,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 49,
+            "demand": 4776.0,
+            "deviation": -135.6,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 20724.3,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 29.2,
+                    "remaining": 1576.7,
+                    "supply": 102.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 24108.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 90.6,
+                    "remaining": 31786.3,
+                    "supply": 2073.5
+                }
+            },
+            "total_supply": 4640.4
+        },
+        {
+            "day": 50,
+            "demand": 4692.0,
+            "deviation": -89.9,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 19492.3,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 1475.7,
+                    "supply": 101.0
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 22876.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 89.0,
+                    "remaining": 29749.3,
+                    "supply": 2037.0
+                }
+            },
+            "total_supply": 4602.1
+        },
+        {
+            "day": 51,
+            "demand": 4436.0,
+            "deviation": -3.3,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 95.7,
+                    "remaining": 18313.0,
+                    "supply": 1179.3
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 27.1,
+                    "remaining": 1380.1,
+                    "supply": 95.5
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 21644.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 84.2,
+                    "remaining": 27823.4,
+                    "supply": 1925.9
+                }
+            },
+            "total_supply": 4432.7
+        },
+        {
+            "day": 52,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 17081.0,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 1279.2,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 20412.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 25788.5,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 53,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 15849.0,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 1178.3,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 19180.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 23753.7,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 54,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 14617.0,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 1077.3,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 17948.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 21718.8,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 55,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 13385.0,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 976.4,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 16716.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 19684.0,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 56,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 12153.0,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 875.5,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 15484.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 17649.1,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 57,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 10921.0,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 774.5,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 14252.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 15614.2,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 58,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 9689.0,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 673.6,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 13020.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 13579.4,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 59,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 8457.0,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 572.6,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 11788.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 11544.5,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 60,
+            "demand": 2427.0,
+            "deviation": 0.0,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 52.4,
+                    "remaining": 7811.8,
+                    "supply": 645.2
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 14.8,
+                    "remaining": 520.4,
+                    "supply": 52.3
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 54.9,
+                    "remaining": 11112.2,
+                    "supply": 675.9
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 46.1,
+                    "remaining": 10490.8,
+                    "supply": 1053.7
+                }
+            },
+            "total_supply": 2427.0
+        },
+        {
+            "day": 61,
+            "demand": 2349.0,
+            "deviation": 0.0,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 50.7,
+                    "remaining": 7187.3,
+                    "supply": 624.5
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 14.4,
+                    "remaining": 469.8,
+                    "supply": 50.6
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 53.1,
+                    "remaining": 10458.1,
+                    "supply": 654.1
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 44.6,
+                    "remaining": 9471.0,
+                    "supply": 1019.8
+                }
+            },
+            "total_supply": 2349.0
+        },
+        {
+            "day": 62,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 5955.3,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 368.9,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 9226.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 7436.2,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 63,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 4723.3,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 267.9,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 7994.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 5401.3,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 64,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 3491.3,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 167.0,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 6762.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 3366.4,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 65,
+            "demand": 4687.0,
+            "deviation": -87.2,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 2259.3,
+                    "supply": 1232.0
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 28.7,
+                    "remaining": 66.1,
+                    "supply": 100.9
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 100.0,
+                    "remaining": 5530.1,
+                    "supply": 1232.0
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 88.9,
+                    "remaining": 1331.6,
+                    "supply": 2034.9
+                }
+            },
+            "total_supply": 4599.8
+        },
+        {
+            "day": 66,
+            "demand": 3044.0,
+            "deviation": 0.0,
+            "divisions": {
+                "Лимани": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 65.7,
+                    "remaining": 1450.1,
+                    "supply": 809.2
+                },
+                "Фермери": {
+                    "capacity": 352.0,
+                    "harv_a": 0,
+                    "harv_b": 1,
+                    "load_pct": 18.6,
+                    "remaining": 0.5,
+                    "supply": 65.6
+                },
+                "Центральне": {
+                    "capacity": 1232.0,
+                    "harv_a": 1,
+                    "harv_b": 2,
+                    "load_pct": 68.8,
+                    "remaining": 4682.4,
+                    "supply": 847.7
+                },
+                "Шевченкове": {
+                    "capacity": 2288.0,
+                    "harv_a": 3,
+                    "harv_b": 2,
+                    "load_pct": 57.8,
+                    "remaining": 10.0,
+                    "supply": 1321.6
+                }
+            },
+            "total_supply": 3044.0
+        }
+    ],
+    "ratio_a": 60,
+    "ratio_b": 40
+}

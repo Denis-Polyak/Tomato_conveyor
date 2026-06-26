@@ -1,0 +1,28 @@
+{
+  "requisites": [
+    {
+      "id": "1",
+      "name": "З-д Північний",
+      "type": "Завод",
+      "description": ""
+    },
+    {
+      "id": "2",
+      "name": "З-д Східний",
+      "type": "Завод",
+      "description": ""
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Заводи",
+      "description": "",
+      "members": [
+        "1",
+        "2"
+      ]
+    }
+  ],
+  "relations": []
+}
