@@ -5,7 +5,8 @@ import pandas as pd
 from datetime import datetime, timedelta
 from genetic_optimizer import GeneticOptimizerTab
 from detailed_harvest_plan_tab import DetailedHarvestPlanTab
-
+from dzv_optimizer import DZVOptimizerTab
+from info import show_deviation_info
 from PySide6.QtCore import Qt, QPoint
 from PySide6.QtWidgets import (
     QApplication, QWidget, QTableWidget, QTableWidgetItem,
@@ -308,6 +309,12 @@ class FieldApp(QWidget):
         self.btn_import = QPushButton("Імпорт Excel")
         self.btn_import.clicked.connect(self.import_excel)
 
+        self.info_btn = QPushButton("ℹ Інфо")
+        self.info_btn.clicked.connect(
+          lambda: show_deviation_info(self)
+        )
+        btns.addWidget(self.info_btn)
+
         hint = QLabel("💡 Виділіть поля → права кнопка → Призначити відділення")
         hint.setStyleSheet("color: gray; font-size: 11px;")
 
@@ -330,6 +337,9 @@ class FieldApp(QWidget):
 
         self.harvest_plan_tab = DetailedHarvestPlanTab(self)
         self.tabs.addTab(self.harvest_plan_tab, "Детальний план збирання")
+
+        self.dzv_tab = DZVOptimizerTab(self)
+        self.tabs.addTab(self.dzv_tab, "ДЗВ")
 
         self.graphs_tab = GraphsTab(self)
         self.tabs.addTab(self.graphs_tab, "Графіки")
